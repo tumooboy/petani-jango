@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"codeberg.org/0xgetz/jango-bulk/internal/jango"
+	"github.com/tumooboy/petani-jango/internal/jango"
 )
 
 // Account is one pooled Jango account.

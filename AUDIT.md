@@ -1,10 +1,5 @@
 # jango-bulk — audit and repair notes
 
-Source: https://codeberg.org/0xgetz/jango-bulk (commit 6e0af4cc1c, 2026-11-05)
-Local tree: `~/workspace/jango-bulk` (Codeberg blocks this host's IP, so the tree
-was reconstructed file by file through a text proxy; `gofmt`, `go vet` and the
-full test suite confirm the copy is intact).
-
 ## Verdict
 
 No malware, no backdoor, no exfiltration. The published code is a straight HTTP
@@ -40,9 +35,9 @@ sneaky.
    is `jango` gets patched in place — pick a different `--prefix` if that
    collides with something in 9Router.
 
-## What was broken upstream (and fixed here)
+## What was broken in the published binary (and fixed here)
 
-The published binary no longer works against the live site. Four separate
+The first published build no longer worked against the live site. Four separate
 breakages, in the order they surfaced:
 
 1. **mail.tm collection shape.** `GET /domains` and `GET /messages` return a bare

@@ -22,12 +22,12 @@ import (
 	"syscall"
 	"time"
 
-	"codeberg.org/0xgetz/jango-bulk/internal/bridge"
-	"codeberg.org/0xgetz/jango-bulk/internal/creator"
-	"codeberg.org/0xgetz/jango-bulk/internal/jango"
-	"codeberg.org/0xgetz/jango-bulk/internal/router"
-	"codeberg.org/0xgetz/jango-bulk/internal/store"
-	"codeberg.org/0xgetz/jango-bulk/internal/wire"
+	"github.com/tumooboy/petani-jango/internal/bridge"
+	"github.com/tumooboy/petani-jango/internal/creator"
+	"github.com/tumooboy/petani-jango/internal/jango"
+	"github.com/tumooboy/petani-jango/internal/router"
+	"github.com/tumooboy/petani-jango/internal/store"
+	"github.com/tumooboy/petani-jango/internal/wire"
 )
 
 const version = "1.0.0"

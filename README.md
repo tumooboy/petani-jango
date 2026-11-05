@@ -2,9 +2,8 @@
 
 Bulk Jango AI account pool behind an OpenAI-compatible bridge, wired into 9Router.
 
-Fork of [0xgetz/jango-bulk](https://codeberg.org/0xgetz/jango-bulk) (commit `6e0af4c`) with four
-live-site breakages fixed, plus pool-routing hardening. See [AUDIT.md](AUDIT.md) for the full
-breakdown. Zero third-party Go dependencies — stdlib only.
+Original tooling by tumooboy. Fixed and hardened for the live site — see [AUDIT.md](AUDIT.md)
+for the full breakdown. Zero third-party Go dependencies — stdlib only.
 
 ## What it does
 
@@ -112,7 +111,3 @@ internal/mock/      in-process fakes
 `bin/`, `data/` (the account vault — credentials, JWTs, refresh cookies) and session files are
 git-ignored. Nothing sensitive belongs in this tree; if you find any, it is a bug — file an issue.
 
-## Credits
-
-Upstream: [0xgetz/jango-bulk](https://codeberg.org/0xgetz/jango-bulk).
-Live-site repairs and pool hardening documented in [AUDIT.md](AUDIT.md).

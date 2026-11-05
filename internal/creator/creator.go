@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"codeberg.org/0xgetz/jango-bulk/internal/captcha"
-	"codeberg.org/0xgetz/jango-bulk/internal/firebase"
-	"codeberg.org/0xgetz/jango-bulk/internal/jango"
-	"codeberg.org/0xgetz/jango-bulk/internal/mailtm"
-	"codeberg.org/0xgetz/jango-bulk/internal/store"
+	"github.com/tumooboy/petani-jango/internal/captcha"
+	"github.com/tumooboy/petani-jango/internal/firebase"
+	"github.com/tumooboy/petani-jango/internal/jango"
+	"github.com/tumooboy/petani-jango/internal/mailtm"
+	"github.com/tumooboy/petani-jango/internal/store"
 )
 
 // Browser-facing constants the live flow needs.
